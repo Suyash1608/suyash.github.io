@@ -1,0 +1,567 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* heading css */
+#header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position:sticky;
+    top: 0%;
+    z-index: 2;
+    /* text-align: center; */
+}
+
+#logo {
+    font-family: "Micro 5", sans-serif;
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 3rem;
+    color: antiquewhite;
+    padding-left: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#hamburger {
+    text-align: right;
+    position: relative;
+    margin-top: auto;
+    margin-right: 5%;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+
+#hamburger a {
+    text-decoration: none;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+/* welcomepage start */
+#welcome-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 9px;
+}
+
+.welcome-content {
+    position: relative;
+    margin: auto;
+    text-align: left;
+}
+
+#social-media {
+    /* position: relative;
+    margin: auto; */
+    padding-top: 30%;
+}
+
+#social-media a {
+    display: block;
+    height: 100%;
+    width: 0px;
+    padding-top: 5px;
+}
+
+#left-welcome-content {
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+#right-welcome-content {
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+#welcome-content-img img {
+    height: 80%;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px inset;
+}
+
+a:hover {
+    color: red;
+    text-shadow: 0px 0px 10px whitesmoke;
+}
+
+a>i:hover {
+    color: red;
+}
+
+/* welcomepage end */
+
+
+
+
+
+
+/* aboutmepage start  */
+#aboutme-page {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.pageheading {
+    text-shadow: 0px 0px 10px red;
+    text-align: center;
+    font-family: "Bungee Inline", sans-serif;
+    text-transform: uppercase;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* font-weight: 400; */
+    /* font-style: normal;   */
+}
+#introduction{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.aboutme-content {
+    padding: 1% 5% 1% 5% ;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    padding-bottom: 2%;
+}
+/* .aboutme-content:hover{
+    box-shadow: 0px 0px 2px 2px white;
+} */
+
+.aboutme-content h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 0px 11px red;
+    padding-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+#introduction p>span{
+    color: #ff1800;
+    font-style: italic;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-shadow: none;
+}
+
+.aboutme-content p>span{
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px red;
+}
+
+.hlist {
+    margin-left: 6%;
+    font-weight: bold;
+}
+
+.aboutme-content h2:hover {
+    text-shadow: 0px 0px 5px red;
+}
+
+.aboutme-content p {
+    padding-left: 1%;
+    padding-right: 2%;
+    text-align: left;
+}
+/* aboutmepage end  */
+
+
+
+
+
+/* projectpage start  */
+
+#projects-page{
+    display: grid;
+    grid-row-gap: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+/* .projects-content {
+    padding-left: 4%;
+    padding-right: 2%;
+    text-align: left;
+} */
+li>span{
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px red
+}
+.projects{
+    margin: 1% 10% 1% 10%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-end: 4;
+    grid-column-start: 1;
+    border: 2px ridge;
+}
+#project1-technology{
+    border-right-style: ridge;
+    border-width: 2px;
+}
+.technology ul{
+    margin-left: 2%;
+    text-align: left;
+}
+.technology ul>li{
+    font-weight: bold;
+    font-style: italic;
+}
+.problem-statement{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: 3%;
+}
+.problem-statement span{
+    font-weight: bold;
+    /* font-style: italic; */
+    color: red;
+}
+
+.projects h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 0px 10px white;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-bottom: 1%;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+#project1-description h3{
+    text-align: center;
+}
+
+.projects h2:hover{
+    text-shadow: 0px 0px 5px red;   
+}
+/* .project1-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+} */
+
+.projects h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 0px 5px red;
+    padding-bottom: 5px;
+}
+
+.projects h3:hover{
+    text-shadow: 0px 0px 7px red;
+}
+
+.projects ul{
+    margin-left: 10px;
+    padding-left: 20px;
+    list-style:circle;
+}
+
+/* .techlist{
+    margin-left: 2%;
+} */
+
+/* projectpage end  */
+
+
+
+
+
+/* skillspage start  */
+#skills-page {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 10% 0px 10%;
+}
+.skills{
+    padding: 1% 0% 1% 0%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.skills:hover{
+    border-style: outset;
+    box-shadow: 0px 0px 10px 0px white;
+}
+.skills h2{
+    color: red;
+    text-align: center;
+}
+.skills h2:hover{
+    text-shadow: 0px 0px 7px darkslategray;
+}
+
+.skills ul{
+    margin:1% 5% 1% 13%
+}
+
+#interpersonal-skills ul
+{
+    margin:1% 5% 1% 40%;
+    font-weight: bold;
+}
+
+#technical-skills ul>li{
+    font-weight: bold;
+}
+
+#technical-skills ul>li>span{
+    margin: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-width: 2px;
+    border-right-style:ridge ;
+    font-weight: normal;
+    font-style: italic;
+}
+/* skillspage end  */
+
+/* contactme start  */
+#contact-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 10% 0px 10%;
+    grid-gap: 10px 10px;
+}
+#contact-page h2{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 0px 10px red;
+    padding-bottom: 5px;
+    color: black;
+}
+#contactme-heading{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-shadow: 0px 0px 10px red;
+    text-align: center;
+    font-family: "Bungee Inline", sans-serif;
+    text-transform: uppercase;
+}
+#getintouch{
+    grid-column-start: 1;
+    grid-column-end: 3;   
+}
+
+.contactme-content h2{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 0px 10px red;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.contactme-content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#Email{
+    border-right-style:groove ;
+}
+.contactme-content p{
+    /* margin: 10px 30px 10px 30px; */
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+.contactme-content a{
+    text-decoration: none;
+}
+#socialmedia a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#socialmedia a{
+    padding-left: 5%;
+}
+
+#contactform{
+    grid-column-start: 1;
+    grid-column-end: 3;   
+}
+#NE{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#NE input{
+    margin: 0% 15% 0% 0%;
+}
+#NE label{
+    margin: 0% 2% 0% 5%;
+}
+#gender label{
+    display: block;
+    margin: 0% 2% 0% 5%;
+}
+#gender input{
+    margin: 0% 1% 2% 11%;
+}
+#message label{
+    display: block;
+    margin: 0% 2% 0% 5%;
+}
+#message textarea{
+    margin: 1% 1% 3% 11%;
+}
+fieldset{
+    border-style:double;
+    border-radius: 2px;
+}
+#letsconnect{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+/* contactme end  */
+
+@media(max-width:700px) {
+    #hamburger {
+        display: none;
+    }
+
+    #logo {
+        font-family: "Micro 5", sans-serif;
+        /* font-weight: 400; */
+        font-style: normal;
+        font-size: 175%;
+        color: antiquewhite;
+        padding-left: 40px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #welcome-page {
+        font-size: 50%;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    .pageheading {
+        font-size: 70%;
+    }
+
+    .aboutme-content{
+        margin-left: 3%;
+        margin-right: 3%;
+        grid-column-start:1 ;
+        grid-column-end: 4;
+    }
+
+    .aboutme-content h2 {
+        
+        font-size: 90%;
+        /* width: 60%; */
+    }
+
+    .aboutme-content p {
+        font-size: 70%;
+    }
+
+    ul {
+        font-size: 70%;
+    }
+
+    .projects h2 {
+        font-size: 90%;
+    }
+
+    .projects h3 {
+        font-size: 80%;
+        /* width: 60%; */
+    }
+
+    .projects p{
+        font-size: 70%;
+    }
+    .skills h2{
+        font-size: 90%;
+    }
+    .skills{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .skills ul{
+        font-size: 70%;
+        margin-left: 10%;
+    }
+    #interpersonal-skills ul
+    {
+        margin:1% 5% 1% 40%;
+    }
+    #contact-page{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    }
+    #contact-page h2{
+        font-size: 90%;
+    }
+    #contactme-heading h1{
+        font-size: inherit;
+    }
+    .contactme-content {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .contactme-content p{
+        font-size: 70%;
+    }
+    .problem-statement span{
+        font-size: 70%;
+    }
+    #socialmedia a{
+        font-size: 70%;
+        padding-left:3% ;
+        /* padding-right: ; */
+    }
+    fieldset{
+        font-size: 70%;
+    }
+    
+}
