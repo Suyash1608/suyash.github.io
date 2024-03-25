@@ -63,6 +63,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 9px;
+    margin-bottom: 5%;
 }
 
 .welcome-content {
@@ -123,7 +124,7 @@ a>i:hover {
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .pageheading {
@@ -199,8 +200,7 @@ a>i:hover {
 #projects-page{
     display: grid;
     grid-row-gap: 2%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin:5% 5% 5% 5%;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
@@ -305,7 +305,7 @@ li>span{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    margin: 0px 10% 0px 10%;
+    margin: 5% 5% 5% 5%;
 }
 .skills{
     padding: 1% 0% 1% 0%;
@@ -353,7 +353,7 @@ li>span{
 #contact-page{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0px 10% 0px 10%;
+    margin: 5% 5% 5% 5%;
     grid-gap: 10px 10px;
 }
 #contact-page h2{
@@ -536,7 +536,7 @@ fieldset{
     #contact-page{
         grid-column-start: 1;
         grid-column-end: 3;
-        
+        margin: 21% 5% 5% 5%;
     }
     #contact-page h2{
         font-size: 90%;
