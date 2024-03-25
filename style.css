@@ -200,7 +200,7 @@ a>i:hover {
 #projects-page{
     display: grid;
     grid-row-gap: 2%;
-    margin:5% 5% 5% 5%;
+    margin:5% 0% 5% 0%;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
@@ -305,11 +305,11 @@ li>span{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 0% 5% 5%;
 }
 .skills{
     padding: 1% 0% 1% 0%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 10px;
 }
 .skills:hover{
@@ -317,11 +317,19 @@ li>span{
     box-shadow: 0px 0px 10px 0px white;
 }
 .skills h2{
-    color: red;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 0px 10px red;
+    padding-bottom: 5px;
+    color: black;
     text-align: center;
 }
 .skills h2:hover{
-    text-shadow: 0px 0px 7px darkslategray;
+    text-shadow: 0px 0px 5px red;
 }
 
 .skills ul{
@@ -402,7 +410,7 @@ li>span{
     /* margin: 10px 30px 10px 30px; */
     padding-left: 10%;
     padding-right: 10%;
-    text-align: justify;
+    text-align: left;
 }
 .contactme-content a{
     text-decoration: none;
@@ -518,8 +526,12 @@ fieldset{
     .projects p{
         font-size: 70%;
     }
+    #skills-page{
+    margin: 5% 0% 5% 5%;
+    }
     .skills h2{
         font-size: 90%;
+        text-align: left;
     }
     .skills{
         grid-column-start: 1;
@@ -531,7 +543,7 @@ fieldset{
     }
     #interpersonal-skills ul
     {
-        margin:1% 5% 1% 40%;
+        margin:1% 5% 1% 10%;
     }
     #contact-page{
         grid-column-start: 1;
@@ -557,7 +569,7 @@ fieldset{
     }
     #socialmedia a{
         font-size: 70%;
-        padding-left:3% ;
+        padding-left:0% ;
         /* padding-right: ; */
     }
     fieldset{
